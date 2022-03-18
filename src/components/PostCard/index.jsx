@@ -1,3 +1,4 @@
+import './styles.css';
 export const PostCard = ({post}) =>{
     return (
         <div className="post">
