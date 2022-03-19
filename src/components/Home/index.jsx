@@ -82,7 +82,7 @@ class Home extends Component {
 
         <div className="button-container">
           {!seacheValue && (
-            <Button text="Load more posts"
+            <Button text="Carregar mais posts"
             acao={this.loadMorePosts}
             disabled={noMorePost}
         />
